@@ -1,3 +1,3 @@
 module github.com/big-harry/stringfuncs
 
-go 1.10
+go 1.11
