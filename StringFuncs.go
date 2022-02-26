@@ -1,7 +1,6 @@
 package stringfuncs
 
-// String tools that I often use
-// (c) Harry Nelsen 2021
+// (c) Harry Nelsen 2022
 
 import (
     "strings"
@@ -109,7 +108,6 @@ func IsFloat(Source string) (bool) {
     return (Outliers("0123456789.", Source) == 0 && Usage(Source, '.') <= 1)
 }
 
-// Sometimes I make programs that'll only use this 1 thing from strings along with my functions, so I did this
 func Contains(Source string, LookingFor string) (bool) {
     return strings.Contains(Source, LookingFor)
 }
